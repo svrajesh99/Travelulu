@@ -1,0 +1,635 @@
+.homepage {
+  padding: 0vw 5vw 5vw 5vw;
+  font-family: Poppins;
+}
+.boarding {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-self: right;
+  margin: 2vw 0;
+}
+.Boarding-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2vw;
+}
+#begin-bt {
+  width: 15vw;
+  background-color: #5f2eea;
+  border: none;
+  padding: 10px;
+  color: #ffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#begin-bt:hover {
+  background-color: #ab96e6;
+  color: #5f2eea;
+  border: ridge #5f2eea;
+}
+#review-bt {
+  width: 15vw;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  color: #5f2eea;
+  border: ridge #5f2eea;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#review-bt:hover {
+  background-color: #ab96e6;
+  color: #ffff;
+}
+.Boarding-img img {
+  width: 100%;
+}
+.Boarding-img1 {
+  display: none;
+}
+.Boarding-detailes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+.Boarding-detailes h1 {
+  color: #4e4b66;
+  font-size: 3vw;
+}
+.statics {
+  border-left: groove #d9dbe9;
+  border-top: groove #d9dbe9;
+  border-bottom: groove #d9dbe9;
+  display: grid;
+  padding-left: 0vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+.statics div {
+  border-right: groove #d9dbe9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 20px;
+}
+.statics div h1 {
+  color: #2a00a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.statics div p {
+  font-size: 1.5vw;
+  color: #6e7191;
+  text-align: center;
+}
+.Tools-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.toollist {
+  font-size: 1.5vw;
+  color: #5f2eea;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#tool1 {
+  font-size: 3vw;
+  color: #4e4b66;
+  text-align: start;
+}
+#tool2 {
+  font-size: 2vw;
+  text-align: start;
+}
+.travel-tips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5vw;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+}
+.travel-tips img {
+  width: 100%;
+}
+.travel-tips div {
+  width: 22vw;
+  border: solid #d9dbe9;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.travel-tips button {
+  background-color: #ffff;
+  color: #5f2eea;
+  border: ridge #5f2eea;
+  border-width: small;
+  border-radius: 20px;
+  padding: 10px;
+}
+.travel-tips button:hover {
+  background-color: #5f2eea;
+  color: #ffff;
+}
+#image-wrapper {
+  margin-bottom: 10vh;
+}
+.planning {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#planning {
+  color: #5f2eea;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+#planning-detailes {
+  color: #4e4b66;
+  font-size: 3vw;
+  width: 50%;
+  text-align: center;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 10px;
+  background-image: url("../../Assests/Images/Homepage/airhelp.png");
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+  background-position: center;
+  margin-top: 30px;
+  font-size: 1.5vw;
+}
+.contact button {
+  border-radius: 40px;
+  padding: 15px;
+  border: groove #5f2eea;
+  border-width: small;
+  color: #5f2eea;
+  box-shadow: 0px 0px 5px 5px #e4daff;
+}
+.contact-1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vw;
+}
+.contact-1 div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.contact-1 .div1 {
+  margin-left: 40px;
+}
+.contact-1 .div3 {
+  margin-left: 40px;
+}
+.contact-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vw;
+}
+.contact-2 div {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.contact-2 .div2 {
+  margin-left: 40px;
+}
+.airhelp {
+  display: none;
+}
+.contact-21 {
+  display: none;
+}
+.testnomial {
+  margin: 5vh 0 10vh 0;
+}
+.testnomial button {
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #5f2eea;
+  color: #ffff;
+  margin: 5px;
+  border: none;
+}
+.testnomial-detailes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.testnomial-detailes p {
+  width: 50%;
+  color: #4e4b66;
+  font-size: 3vw;
+}
+.Avathars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 0 10vw;
+}
+.Avathar {
+  border: solid #e4daff;
+  padding: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  text-align: center;
+  width: 50%;
+}
+#detailes {
+  color: #4e4b66;
+}
+#heading {
+  color: #5f2eea;
+  border-bottom: groove #d9dbe9;
+}
+.avatar {
+  width: 70%;
+  background-color: #5f2eea;
+  border-radius: 50%;
+  margin-top: -9vw;
+}
+.avatar img {
+  width: 100%;
+}
+.reviewslider {
+  display: none;
+}
+.contact-us {
+  background-color: #5f2eea;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 8vw;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: #ffff;
+  background-image: url("../../Assests/Images/Homepage/Vector.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: bottom right;
+}
+.contact-us button {
+  background-color: transparent;
+  padding: 10px;
+  color: #ffff;
+  border: solid #ffff;
+  border-radius: 20px;
+}
+.Footer {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10vw;
+  font-size: 2vw;
+}
+.Footer1 {
+  display: none;
+}
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vw;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+}
+.footer2 div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vw;
+}
+.footer2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  color: #6e7191;
+}
+.footer2 p {
+  color: #6e7191;
+}
+#email {
+  color: #5f2eea;
+}
+@media (max-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .toollist {
+    font-size: 3vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #begin-bt {
+    width: 20vw;
+  }
+  #review-bt {
+    width: 20vw;
+  }
+  .statics div h1 {
+    font-size: 3vw;
+  }
+  .statics div p {
+    font-size: 2vw;
+  }
+  .travel-tips {
+    font-size: 2vw;
+  }
+  .toollist {
+    font-size: 3vw;
+  }
+  .contact-2 div {
+    width: 70%;
+  }
+  .contact-1 div {
+    width: 70%;
+  }
+  .contact-2 {
+    align-items: center;
+  }
+  .contact-2 .div2 {
+    margin-right: -20px;
+  }
+  .contact {
+    font-size: 2vw;
+  }
+  .contact button {
+    padding: 10px;
+  }
+  .Avathar {
+    width: 70%;
+    padding: 4vw;
+  }
+  .Avathars {
+    padding: 0 5vw;
+  }
+}
+@media (min-width: 500px) and (max-width: 767.98px) {
+  #begin-bt {
+    width: 20vw;
+    padding: 5px;
+  }
+  #review-bt {
+    width: 25vw;
+    padding: 5px;
+  }
+  .statics div h1 {
+    font-size: 4vw;
+  }
+  .statics div p {
+    font-size: 2vw;
+  }
+  .travel-tips {
+    font-size: 2vw;
+    gap: 10px;
+  }
+  .travel-tips button {
+    padding: 5px;
+  }
+  .toollist {
+    font-size: 3vw;
+  }
+  .Boarding-detailes h1 {
+    font-size: 4vw;
+  }
+  .contact {
+    font-size: 2vw;
+  }
+  .contact-2 div {
+    width: 60%;
+  }
+  .contact-1 div {
+    width: 60%;
+  }
+  .contact-2 {
+    align-items: center;
+  }
+  .contact-2 .div2 {
+    margin-right: -20px;
+  }
+  .contact button {
+    padding: 5px;
+  }
+  .Avathar {
+    width: 70%;
+    padding: 4vw;
+  }
+  .Avathars {
+    padding: 0 1vw;
+  }
+  .testnomial-detailes p {
+    width: 70%;
+    font-size: 4vw;
+  }
+  .Footer {
+    font-size: 2.5vw;
+    gap: 10vw;
+  }
+}
+@media (max-width: 499.98px) {
+  .Boarding-img1 {
+    display: block;
+  }
+  .Boarding-img1 img {
+    width: 100%;
+  }
+  .Boarding-img {
+    display: none;
+  }
+  .boarding {
+    grid-template-columns: 1fr;
+  }
+  .Boarding-detailes h1 {
+    font-size: 5vw;
+  }
+  .Boarding-buttons {
+    display: contents;
+  }
+  #begin-bt {
+    width: 100%;
+    padding: 10px;
+  }
+  #review-bt {
+    width: 100%;
+    padding: 10px;
+  }
+  .statics {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+    border-bottom: none;
+  }
+  .statics div p {
+    font-size: 5vw;
+  }
+  .statics div h1 {
+    font-size: 6vw;
+  }
+  .statics div {
+    border-bottom: groove #d9dbe9;
+  }
+  .toollist {
+    font-size: 6vw;
+  }
+  .tools {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  #tool1 {
+    font-size: 8vw;
+  }
+  #tool2 {
+    font-size: 5vw;
+  }
+  .travel-tips {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-left: 10px;
+  }
+  .travel-tips div {
+    width: 75%;
+    padding: 10px;
+  }
+  .travel-tips {
+    font-size: 4vw;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    background-image: none;
+    font-size: 5vw;
+  }
+  .contact button {
+    padding: 3px;
+  }
+  .airhelp {
+    display: block;
+  }
+  .airhelp img {
+    width: 100%;
+  }
+  .contact-1 {
+    display: none;
+  }
+  .contact-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vw;
+  }
+  .contact-21 {
+    display: block;
+  }
+  .contact-21 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5vw;
+  }
+  .contact-21 div {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .contact-21 .div2 {
+    margin-left: 40px;
+  }
+  #planning {
+    font-size: 6vw;
+  }
+  #planning-detailes {
+    font-size: 6vw;
+    width: 70%;
+  }
+  .testnomial button {
+    display: none;
+  }
+  .testnomial-detailes p {
+    font-size: 5vw;
+    width: 100%;
+  }
+  .Avathars {
+    display: none;
+  }
+  .reviewslider {
+    display: block;
+  }
+  .Footer {
+    display: none;
+  }
+  .Footer1 {
+    display: block;
+  }
+  .Footer1 div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    font-size: 6vw;
+    text-align: center;
+    margin: 3vw 0;
+  }
+  .Footer1 div a {
+    text-decoration: none;
+  }
+  .Footer1 div p {
+    color: #6e7191;
+  }
+  .Footer1 .footer1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 10vw;
+  }
+  .Footer1 .footer2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

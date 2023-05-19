@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  font-family: Poppins;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}

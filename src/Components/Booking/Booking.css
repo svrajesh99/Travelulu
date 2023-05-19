@@ -1,0 +1,331 @@
+.booking {
+  padding: 2vw 5vw;
+}
+.booking-header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vw;
+  margin: 2vw 0;
+}
+.options2 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1vw;
+}
+.option1 {
+  width: 30vw;
+  height: 10px;
+  border: solid #14142b;
+  border-width: 1.5px;
+  border-radius: 1vw;
+  padding: 2vw;
+  background-color: #f7f7fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+}
+.options2 div {
+  width: 17vw;
+  height: 10px;
+  border: solid #14142b;
+  border-width: 1.5px;
+  border-radius: 1vw;
+  padding: 2vw;
+  background-color: #f7f7fc;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7vw;
+}
+.options2 button {
+  background-color: #ed2e7e;
+  width: 8vw;
+  border: none;
+  color: #ffff;
+  border-radius: 20px;
+  font-size: 2vw;
+}
+.options2 button:hover {
+  background-color: #fe40e2;
+}
+.properties {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+}
+.properties-1 {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  row-gap: 20px;
+  background-color: #2a00a2;
+  padding: 20px;
+  color: #ffff;
+  border-radius: 20px;
+}
+.properties-1 p {
+  color: #f3efff;
+  margin: 2px 0;
+}
+#search,
+#check-in,
+#travelers {
+  background-color: #ffff;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+}
+#heading-1 {
+  color: #bca4ff;
+}
+.property {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 2vw 0;
+}
+.property img {
+  width: 100%;
+}
+.property-detailes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  font-size: 2vw;
+}
+#button1 {
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 5px;
+  color: #5f2eea;
+  border-width: 1px;
+  border: solid #d9dbe9;
+  border-width: 2px;
+}
+#button:hover {
+  background-color: #9e9fff;
+  cursor: pointer;
+}
+.property h4 {
+  color: #5f2eea;
+}
+.property p {
+  color: #4e4b66;
+}
+.property-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#rating {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+#star {
+  color: #ed2e7e;
+}
+.like {
+  border: solid #00ba88;
+  border-width: 1px;
+  background-color: #f2fffb;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+  margin: 2vw 0;
+}
+.like div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+}
+.like p {
+  color: #00966d;
+}
+.error {
+  border: solid#ED2E7E;
+  border-width: 1px;
+  background-color: #fff3f8;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5vw;
+  margin: 2vw 0;
+}
+.error div {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 10px;
+}
+.error p {
+  color: #ed2e7e;
+}
+.dropdown {
+  display: none;
+}
+#slider {
+  display: none;
+}
+#button2 {
+  display: none;
+}
+#slider {
+  display: none;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .error,
+  .like {
+    font-size: 2vw;
+  }
+}
+@media (min-width: 500px) and (max-width: 767.98px) {
+  .properties {
+    grid-template-columns: 40% 60%;
+  }
+  .property {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: center;
+  }
+  .properties-1 {
+    font-size: 2vw;
+    row-gap: 10px;
+  }
+  .property img {
+    width: 100%;
+  }
+  .property-detailes {
+    font-size: 3vw;
+    text-align: start;
+  }
+  .error,
+  .like {
+    font-size: 3vw;
+  }
+}
+@media (max-width: 499.98px) {
+  .options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  .options div {
+    width: 100%;
+    font-size: 4vw;
+  }
+  .options2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    font-size: 4vw;
+  }
+  .options2 button {
+    width: 100%;
+    height: 25px;
+    font-size: 4vw;
+  }
+  .properties {
+    grid-template-columns: 1fr;
+  }
+  .property {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: center;
+  }
+  .properties-1 {
+    font-size: 5vw;
+    row-gap: 10px;
+  }
+  .property img {
+    width: 100%;
+  }
+  .property-detailes {
+    font-size: 5vw;
+    text-align: start;
+  }
+  .error,
+  .like {
+    font-size: 4vw;
+  }
+  .properties-2 {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .properties-2-active {
+    height: fit-content;
+    overflow: hidden;
+  }
+  .dropdown {
+    width: 10%;
+    display: block;
+    background-color: transparent;
+    padding: 10px;
+    color: #5f2eea;
+    border-radius: 50%;
+    border: solid #5f2eea;
+    border-width: 2px;
+    font-size: 6vw;
+    text-align: center;
+    margin: 5vw auto;
+    cursor: pointer;
+  }
+  .Dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Dropdown hr {
+    width: 30vw;
+  }
+  #button1 {
+    display: none;
+  }
+  #button2 {
+    display: block;
+  }
+  #button2 button {
+    padding: 10px;
+    border: solid #d9dbe9;
+    border-width: 2px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: #5f2eea;
+  }
+  #button2 button:hover {
+    background-color: #9e9fff;
+    cursor: pointer;
+  }
+  #slider {
+    display: block;
+  }
+  #property-image {
+    display: none;
+  }
+}

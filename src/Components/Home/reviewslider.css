@@ -1,0 +1,38 @@
+.reviewswrapper {
+  padding: 5vw 10vw;
+}
+.Avathar1 {
+  width: 90% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  padding: 1vw 3vw;
+  border: solid #cdccff;
+  border-radius: 10px;
+  text-align: center;
+}
+.avatar1 {
+  width: 30%;
+  background-color: #cdccff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+.avatar1 img {
+  width: 100%;
+}
+#heading1 {
+  width: 60%;
+  font-size: 4vw;
+  color: #5f2eea;
+  border-bottom: groove #d9dbe9;
+}
+#detailes1 {
+  width: 100%;
+  font-size: 4vw;
+  color: #4e4b66;
+}

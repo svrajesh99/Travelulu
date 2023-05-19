@@ -1,0 +1,217 @@
+import React from "react";
+import "./Homepage.css";
+import { MdFlight } from "react-icons/md";
+import { IoMdGlobe, IoMdBicycle } from "react-icons/io";
+import boarding from "../Assests/Images/Homepage/boarding.png";
+import time from "../Assests/Images/Homepage/time.png";
+import money from "../Assests/Images/Homepage/money.png";
+import finance from "../Assests/Images/Homepage/finance.png";
+const Homepage = () => {
+  return (
+    <div className="home">
+      <div className="Boarding">
+        <div className="Boarding-detailes">
+          <h1>Plan your next big trip overseas.</h1>
+          <div className="Boarding-buttons">
+            <button id="begin-bt">BEGIN PLANS</button>
+            <button id="review-bt">REVIEW PLANS</button>
+          </div>
+        </div>
+        <div className="Boarding-img">
+          <img src={boarding}></img>
+        </div>
+      </div>
+      <div className="statics">
+        <div>
+          <h1>
+            <MdFlight></MdFlight>23,973
+          </h1>
+          <p>
+            Travel to over 23 thousand<br></br> locations around the world.
+          </p>
+        </div>
+        <div>
+          <h1>
+            <IoMdGlobe></IoMdGlobe>82,000
+          </h1>
+          <p>
+            Read tens of thousands of<br></br> reviews of destinations.{" "}
+          </p>
+        </div>
+        <div>
+          <h1>
+            <IoMdBicycle></IoMdBicycle>4,000,000
+          </h1>
+          <p>
+            Visited by millions of<br></br> travellers every single day.{" "}
+          </p>
+        </div>
+      </div>
+      <div className="Tools-list">
+        <div className="toollist">TOOL LIST</div>
+        <div className="tools">
+          <div id="tool1">
+            Use our assortment<br></br> of travel plan tools
+          </div>
+          <div id="tool2">
+            Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit.
+            Pellentesque pulvinar lorem justo<br></br> Lorem ipsum dolor sit
+            amet, consectetur{" "}
+          </div>
+        </div>
+      </div>
+      <div className="travel-tips">
+        <div>
+          <img src={time}></img>
+          <h3>Plan Trip Dates</h3>
+          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <button>LEARN MORE</button>
+        </div>
+        <div>
+          <img src={money}></img>
+          <h3>Pay For Your Flights</h3>
+          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <button>LEARN MORE</button>
+        </div>
+        <div>
+          <img src={finance}></img>
+          <h3>Plan Your Finances</h3>
+          <p>orem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <button>LEARN MORE</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Homepage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Boarding {
+  padding-left: 5vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-self: right;
+  position: relative;
+}
+.Boarding-detailes {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.Boarding-detailes h1 {
+  color: #4e4b66;
+  font-size: 3vw;
+}
+.Boarding-buttons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2vw;
+}
+.Boarding-img {
+}
+.Boarding-img img {
+  width: 100%;
+}
+#begin-bt {
+  width: 15vw;
+  background-color: #5f2eea;
+  border: none;
+  padding: 15px;
+  color: #ffff;
+  border-radius: 20px;
+}
+#review-bt {
+  width: 15vw;
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  color: #5f2eea;
+  border: solid #5f2eea;
+  border-radius: 20px;
+}
+.statics {
+  border: solid #d9dbe9;
+  display: grid;
+  padding-left: 0vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 20px;
+}
+.statics div {
+  border-right: solid #d9dbe9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.statics div h1 {
+  color: #2a00a2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tools-list {
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+#tool1 {
+  font-size: 4vw;
+  color: #4e4b66;
+  display: flex;
+  align-items: center;
+}
+#tool2 {
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+}
+.toollist {
+  color: #4e4b66;
+  font-family: Poppins;
+}
+.travel-tips {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5vw;
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+.travel-tips div {
+  width: 30%;
+  border: solid #d9dbe9;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.travel-tips button {
+  background-color: #ffff;
+  color: #5f2eea;
+  border: solid #5f2eea;
+  border-radius: 20px;
+  padding: 10px;
+}

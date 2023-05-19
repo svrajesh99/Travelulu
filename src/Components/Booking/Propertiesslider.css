@@ -1,0 +1,10 @@
+.wrapper{
+    padding: 5vw;
+    width: 70vw;
+    margin: 0 auto;
+}
+.cell img {
+    width: fit-content;
+    object-fit: cover;
+    padding: 10px;
+  }

@@ -1,0 +1,23 @@
+.wrapper {
+  padding: 0 10vw;
+}
+.cell {
+  border-radius: 10px;
+}
+.cell img {
+  width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  .cell img {
+    width:70vw;
+    height:70vw;
+    object-fit: cover;
+    padding: 10px;
+  }
+  .wrapper{
+    padding: 0 5vw;
+  }
+}
